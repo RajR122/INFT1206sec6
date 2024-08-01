@@ -1,17 +1,14 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!DOCTYPE html><html lang="en-US">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <!--
     	Name: Raj Kaushikbhai Raval
 	    File: index.html
 	    Date: 01 August 2024
 	    Description: This is a simple HTML page, which generates a silly story.
 	-->
-
-    <meta name="viewport" content="width=device-width" />
-
-
+    <meta name="viewport" content="width=device-width">
+    <!--Title of the HTML page-->
     <title>Silly story generator</title>
 
     <style>
@@ -41,23 +38,24 @@
       }
     </style>
   </head>
-
+  <!-- Body tag -->
   <body>
     <div>
       <label for="customname">Enter custom name:</label>
-      <input id="customname" type="text" placeholder="" />
+      <input id="customname" type="text" placeholder="">
     </div>
     <div>
       <label for="us">US</label
-      ><input id="us" type="radio" name="ukus" value="us" checked />
+      ><input id="us" type="radio" name="ukus" value="us" checked>
       <label for="uk">UK</label
-      ><input id="uk" type="radio" name="ukus" value="uk" />
+      ><input id="uk" type="radio" name="ukus" value="uk">
     </div>
     <div>
       <button class="randomize">Generate random story</button>
     </div>
     <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
     <p class="story"></p>
-    <script src="main.js"></script>
+    <!-- Script tag to call JS file-->
+    <script src="./main.js"></script>
   </body>
 </html>
